@@ -13,13 +13,13 @@
   ![사진2](https://raw.githubusercontent.com/gebali4802/dpy-ask/main/image/image2.png)
   * 이 사진처럼 3개의 권한을 모두 켜주셔야 합니다.
   2. 이제 코드에서 인텐트를 켜야합니다
-  * ```py
+  ```py
   INTENTS = discord.Intents.default()
   INTENTS.권한 = True
   client = discord.Client(intents = INTENTS)
   ```
   * 이런식으로 하나씩 권한을 추가해도 됩니다.
-  * ```py
+  ```py
   INTENTS = discord.Intents.all()
   client = discord.Client(intents = INTENTS)
   ```
