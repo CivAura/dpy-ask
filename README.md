@@ -10,9 +10,11 @@
   * 해결 방법은 다음과 같습니다.
   ### 1. 웹사이트에서 켜기
   * `https://discord.com/developers/applications/봇의ID/bot`에 들어가셔서,
-  - `PRESENCE INTENT`
-  - `SERVER MEMBERS INTENT`
-  - `MESSAGE CONTENT INTENT`
+  ```
+  PRESENCE INTENT
+  SERVER MEMBERS INTENT
+  MESSAGE CONTENT INTENT
+  ```
   * 3개의 권한을 모두 켜주셔야 합니다.
   ### 2. 코드에서 켜기
   ```py
