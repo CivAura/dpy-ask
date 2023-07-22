@@ -11,17 +11,17 @@
    해결 방법은 다음과 같습니다.
   1. `https://discord.com/developers/applications/봇의ID/bot`에 들어가셔서,
   ![사진2](https://raw.githubusercontent.com/gebali4802/dpy-ask/main/image/image2.png)
-  이 사진처럼 3개의 권한을 모두 켜주셔야 합니다.
+  - 이 사진처럼 3개의 권한을 모두 켜주셔야 합니다.
   2. 이제 코드에서 인텐트를 켜야합니다
   ```py
   INTENTS = discord.Intents.default()
   INTENTS.권한 = True
   client = discord.Client(intents = INTENTS)
   ```
-  이런식으로 하나씩 권한을 추가해도 됩니다.
+  - 이런식으로 하나씩 권한을 추가해도 됩니다.
   ```py
   INTENTS = discord.Intents.all()
   client = discord.Client(intents = INTENTS)
   ```
-  더 자세한 오류 해결 방법은 [여기](https://discordpy.readthedocs.io/en/stable/intents.html)에서 확인해주세요.
+  - 더 자세한 오류 해결 방법은 [여기](https://discordpy.readthedocs.io/en/stable/intents.html)에서 확인해주세요.
 2. 모듈 미설치 오류
