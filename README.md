@@ -28,7 +28,7 @@
   client = discord.Client(intents = INTENTS)
   ```
   * 저는 위에 과정을 더 선호하는 편입니다.
-  - 웹사이트, 코드에서 모두 켜야하며,
+  - 웹사이트와 코드에서 **모두** 켜야하며,
   - 더 자세한 오류 해결 방법은 **[여기](https://discordpy.readthedocs.io/en/stable/intents.html)**에서 확인해주세요.
 ## 2. **모듈 미설치 오류**
 * pass
