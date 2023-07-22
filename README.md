@@ -32,4 +32,9 @@
   - 웹사이트와 코드에서 **모두** 켜야하며,
   - 더 자세한 오류 해결 방법은 [여기](https://discordpy.readthedocs.io/en/stable/intents.html)에서 확인해주세요.
 ## 2. **모듈 미설치 오류**
-* pass
+  * 모듈 미설치 오류는 말 그대로 `discord`모듈을 설치하지 않으셔서 발생하는 오류입니다.
+  * `ModuleNotFoundError: No Module named 'discord'`이런 식으로 오류 메세지가 나며 타 모듈도 해결 방법이 똑같습니다.
+  * 오류 해결 방법은 간단합니다. 터미널에 들어가셔서 `pip install discord`를 치면 해결이 되는 문제로, 만약 쳤을때 다음과 같은 오류가 난다면,
+  ```
+  ```
+  
