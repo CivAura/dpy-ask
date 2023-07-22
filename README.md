@@ -62,8 +62,8 @@
       if message.content == "테스트":
           await message.channel.send("첫번째 명령어")
 
-  @client.event
-  async def on_message(message):
+  @client.event # 없어야함
+  async def on_message(message): # 없어야함
       if message.content == "안녕":
           await message.channel.send("두번째 명령어")
 
